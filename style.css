@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form {
+  margin: 50px auto;
+  max-width: 700px;
+  width: 100%;
+  background-color: rgb(174, 237, 216);
+  padding: 60px;
+  border-radius: 15px;
+}
+
+.product {
+  margin: 20px auto;
+  max-width: 700px;
+  width: 100%;
+  background-color: rgb(174, 237, 216);
+  padding: 25px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  color: rgb(74, 83, 90);
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 15px;
+  padding: 7px;
+  outline: none;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: rgb(93, 154, 134);
+  color: white;
+  width: 100%;
+  height: 40px;
+  cursor: pointer;
+  border: none;
+  margin-top: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.buttonAmount {
+  background-color: rgb(77, 133, 114);
+  margin: 40px auto;
+  display: block;
+  color: rgb(251, 253, 252);
+  width: 25%;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 10px;
+}
